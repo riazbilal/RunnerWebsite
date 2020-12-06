@@ -1,0 +1,160 @@
+html
+{
+    background-color: lightblue;
+    
+}
+body 
+{
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    width: 90%;
+    background-color: white;
+    margin: 0 auto;
+}
+header
+{
+    padding: 1.875%;
+    background-image: linear-gradient(to right, white 0% , blue 100%);
+    overflow: auto;
+}
+h1
+{
+    text-align: center;
+}
+#top-menu 
+{
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+}
+#top-menu ul li 
+{
+    display: inline;
+}
+#top-menu ul li + li 
+{
+    padding-left: 20px;
+}
+nav ul li .current 
+{
+    text-decoration: none;
+}
+#clothing-description-text
+{
+    text-align: center;
+}
+#clothing-description
+{
+    padding-left: 35%;
+}
+#equipment-description
+{
+   padding-left: 37%;
+}
+#equipment-description-text
+{
+    text-align: center;
+}
+#shoes-description
+{
+    padding-left: 40%;
+}
+#shoes-description-text
+{
+    text-align: center;
+}
+#trending-clothes
+{
+    padding-left: 40%;
+}
+#trending-clothes-text
+{
+    text-align: center;
+}
+#careers
+{
+    text-align: center;
+}
+#design-jobs
+{
+    Color: blue;
+}
+#management-jobs
+{
+    Color: blue;
+}
+#about-home
+{
+    text-align: center;
+    color: lightskyblue;
+}
+#social
+{
+    text-align: right;
+    padding-right: 250px;
+}
+footer img 
+{
+    float: right;
+    padding-right: 20px;
+    margin-right: 50px;
+}
+footer p
+{
+    text-align: center;
+}
+footer
+{
+    border-top: solid;
+    border-top-color: lightblue;
+    border-top-width: thick;
+}
+@media only screen and (max-width: 959px)
+{
+    #top-menu
+    {
+        display: none;
+    }
+}
+    
+@media only screen and (max-width: 767px)
+{
+    main
+    {
+        float: none; 
+        width: 96.25%;
+    }
+    aside
+    {
+        float: none; 
+        width: 96.25%;
+    }
+}
+    
+@media only screen and (max-width: 497px)
+{
+    body
+    {
+        width: 100%;
+    }
+    img 
+    {
+        float: none;
+        width: 90px; 
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto; 
+        display: block;
+    }
+    #title-subtitle
+    {
+        float: none; 
+    }
+    #bottom-menu
+    {
+        display: none; 
+    }
+}
+
+
+

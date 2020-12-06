@@ -1,0 +1,99 @@
+html
+{
+    background-color: lightblue;
+    
+}
+body 
+{
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    width: 90%;
+    background-color: white;
+    margin: 0 auto;
+}
+#mission
+{
+    text-align: center;
+    Color: lightblue; 
+}
+#about
+{
+    text-align: center;
+    Color: lightblue; 
+}
+#impact
+{
+    text-align: center;
+    Color: lightblue; 
+}
+#contact
+{
+    Color: lightblue;
+}
+#social
+{
+    text-align: right;
+    padding-right: 250px;
+}
+main > a
+{
+    padding-left: 20px;
+}
+footer img 
+{
+    float: right;
+    padding-right: 20px;
+    margin-right: 50px;
+}
+footer
+{
+    border-top: solid;
+    border-top-color: lightblue;
+    border-top-width: thick;
+}
+@media only screen and (max-width: 959px)
+{
+    #top-menu
+    {
+        display: none;
+    }
+}
+    
+@media only screen and (max-width: 767px)
+{
+    main
+    {
+        float: none; 
+        width: 96.25%;
+    }
+    aside
+    {
+        float: none; 
+        width: 96.25%;
+    }
+}
+    
+@media only screen and (max-width: 497px)
+{
+    body
+    {
+        width: 100%;
+    }
+    img 
+    {
+        float: none;
+        width: 90px; 
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto; 
+        display: block;
+    }
+    #title-subtitle
+    {
+        float: none; 
+    }
+    #bottom-menu 
+    {
+        display: none;
+    }
+}
